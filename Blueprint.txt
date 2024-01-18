@@ -1,0 +1,16 @@
+.features
+	.dark/light toggle
+	.favorites (guest account)
+	.ratings
+.navbar
+	.logo
+	.Home
+	.search
+	.resource
+		.dropdown
+	.about us
+
+.hero_section
+	.animations (slide)
+	.newest arrival
+	
