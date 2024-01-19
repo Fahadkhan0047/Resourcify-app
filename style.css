@@ -127,7 +127,7 @@ color: #8aac04;
 
 }
 
-.nav-links a:active{
-  font-size: 25px;
-  color:#8aac04;
+.links-container .nav-links a:active {
+  font-size: 20px;
+  color: #8aac04;
 }
