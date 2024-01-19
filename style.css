@@ -5,11 +5,22 @@
 body
 {
     position: fixed;
-    background-image: url("Assets/BG1.jpg");
-    /* filter: contrast(2000px); */
+    background-color: black;
     height: 100%;
     width: 100%;
     background-size: cover;
+}
+.graphics
+{
+    position: absolute;
+    left: 500px;
+    width: 200px;
+    height: 200px;
+    filter: blur(120px);
+    border-radius: 50%;
+    background-color: rgb(189, 189, 189);
+    z-index: -1;
+
 }
 nav{
     top: 0;
@@ -23,7 +34,10 @@ nav .logo{
     width: 100%px;
     height: 60px;
  }
-
+nav a{
+    text-decoration: none;
+    color: beige;
+}
  nav ul li{
     list-style: none;
     display: inline-block;
