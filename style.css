@@ -4,32 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
-body
-{
-    position: fixed;
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-}
-.graphics
-{
-    position: absolute;
-    left: 500px;
-    width: 200px;
-    height: 200px;
-    filter: blur(120px);
-    border-radius: 50%;
-    background-color: rgb(189, 189, 189);
-    z-index: -1;
-
-}
-nav{
-    top: 0;
-    left: 0;
-    padding: 20px;
-=======
 .back-image{
   position: fixed;
   top: 0;
@@ -43,28 +17,10 @@ nav{
     background-color: rgba(0, 0, 0, 0.551);
     height: 100px;
     width: 100%;
->>>>>>> ea06d5e7d0cf631356a25a94a7d989ea908da6f1
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-<<<<<<< HEAD
-nav .logo{
-    width: 100%px;
-    height: 60px;
- }
-nav a{
-    text-decoration: none;
-    color: beige;
-}
- nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 40px;
- }
- nav .search
- {
-=======
 .nav-logo{
     position: relative;
     background-image: url(assets/Logofinal.png);
@@ -145,7 +101,6 @@ nav a{
   }
   
 li{
->>>>>>> ea06d5e7d0cf631356a25a94a7d989ea908da6f1
     display: inline;
 }
 .nav-links a{
