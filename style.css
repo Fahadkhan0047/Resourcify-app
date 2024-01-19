@@ -13,8 +13,9 @@
   object-fit: cover;
   z-index: -1;
 }
+
 .nav-container{
-    background-color: rgba(0, 0, 0, 0.551);
+    background-color: rgba(0, 0, 0, 0);
     height: 100px;
     width: 100%;
     display: flex;
