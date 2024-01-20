@@ -14,6 +14,13 @@
   />
 </head>
 <body>
+  <div class="loader">
+    <div style="color:white; font-family:poppins;" class="developer-name">
+      Resourcify Inc. <br>
+      © copyright reserved 2024
+    </div>
+  </div>
+  
     <img src="assets/background1.png" alt="" class="back-image">
     <header>
         <div class="nav-container">
@@ -115,6 +122,52 @@
         </div>
         
     </header>
+<div class="slide-container">
+  <div class="slide"></div>
+</div>
     
+
+<!-- card strts here -->
+
+<div class="card-container">
+  <div class="card">
+    <header class="card-header">
+      <div class="thumbnail"></div>
+      <span class="title">Java Script Tutorial</span>
+    </header>
+    <div class="card-author">
+      <a class="author-avatar" href="#">
+        <span>
+      </span></a>
+      <svg class="half-circle" viewBox="0 0 106 57">
+        <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+      </svg>
+      <div class="author-name">
+        <div class="author-name-prefix">Author</div> Apna College
+        </div>
+      </div>
+      <div class="tags">
+        <a href="#">html</a>
+        <a href="#">css</a>
+        <a href="#">web-dev</a>
+      </div>
+    </div>
+</div>
+
+
+<!-- card ends here -->
+
+
 </body>
+<script>// Assuming you have a reference to the loader element
+  const loader = document.querySelector('.loader');
+  
+  // Function to hide the loader
+  function hideLoader() {
+    loader.classList.add('hidden');
+  }
+  
+  // Call the hideLoader function after a certain delay (e.g., 3000 milliseconds or 3 seconds)
+  setTimeout(hideLoader, 1500);
+  </script>
 </html>
