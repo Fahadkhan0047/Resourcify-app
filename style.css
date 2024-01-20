@@ -206,6 +206,7 @@ ul {
 }
 .example-2 .icon-content a:hover .filled {
   height: 100%;
+  color: white;
 }
 .example-2 .icon-content a[data-social="spotify"] .filled,
 .example-2 .icon-content a[data-social="spotify"] ~ .tooltip {
@@ -213,7 +214,7 @@ ul {
 }
 .example-2 .icon-content a[data-social="pinterest"] .filled,
 .example-2 .icon-content a[data-social="pinterest"] ~ .tooltip {
-  background-color: #bd081c;
+  background-color: #07a2f5;
 }
 .example-2 .icon-content a[data-social="dribbble"] .filled,
 .example-2 .icon-content a[data-social="dribbble"] ~ .tooltip {
