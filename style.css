@@ -534,7 +534,6 @@
 }
  
 
-
 .nav-container{
     background-color: rgba(0, 0, 0, 0);
     height: 100px;
@@ -656,8 +655,9 @@
   .card-container
   {
     width: 1800px;
-    margin: 60px 0px 0px 60px;
+    margin: 150px 0px 0px 60px;
     display: flex;
+    justify-content: space-around;
   }
   .card {
     display: flex;
@@ -877,9 +877,8 @@ ul {
   width: 30px;
   height: 30px;
 }
-.example-2 .icon-content a:hover {
-  color: white;
-}
+
+
 .example-2 .icon-content a .filled {
   position: absolute;
   top: auto;
@@ -909,4 +908,8 @@ ul {
 .example-2 .icon-content a[data-social="telegram"] .filled,
 .example-2 .icon-content a[data-social="telegram"] ~ .tooltip {
   background-color: #0088cc;
+}
+
+.example-2 .icon-content a:hover {
+  color: white;
 }
