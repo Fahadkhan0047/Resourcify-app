@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -540,15 +539,16 @@
   animation: moveBox-9 4s infinite;
 }
 
-.navbar {
+
+
+.nav-container {
+  margin: 0;
   background-color: rgba(0, 0, 0, 0);
   transition: background-color 0.3s ease-in-out;
   position: fixed;
   width: 100%;
-  z-index: 1000;
-}
-
-.nav-container {
+  z-index: 100;
+  position: fixed;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -637,14 +637,14 @@
 .slide-container {
   overflow: hidden;
   display: block;
-  padding: 100px 100px 0px 100px;
+  padding: 50px 100px 0px 100px;
   /* padding-right: 100px; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.slide {
+/* .slide {
   width: 1800px;
   height: 650px;
   border: none;
@@ -653,7 +653,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0px 0px 10px 1px #000000;
-}
+} */
 
 
 /* slider ends here */
@@ -947,7 +947,7 @@ ul {
 
 .footer{
   margin-top: 100px;
-  background:#000;
+  background:#ff0101;
   padding:30px 0px;
   font-family: 'Play', sans-serif;
   text-align:center;
